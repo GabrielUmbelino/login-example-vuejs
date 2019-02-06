@@ -5,6 +5,7 @@
         <login-form @loginEvent="login"></login-form>
       </b-col>
     </b-row>
+    <div class="overlay"></div>
   </b-container>
 </template>
 
@@ -15,9 +16,10 @@ export default {
     LoginForm
   },
   methods: {
-    login(user) {
-      console.log(user);
+    login() {
+      this.$router.push({ name: "home" });
     }
   }
 };
 </script>
+
