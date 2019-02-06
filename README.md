@@ -8,6 +8,10 @@ npm install
 
 ### Compiles and hot-reloads for development
 
+to test the login, use the following credentials:
+username: samuelsilvawb@gmail.com
+password: samuel123
+
 ```
 npm run serve
 ```
