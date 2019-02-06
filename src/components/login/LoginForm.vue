@@ -1,6 +1,6 @@
 <template>
-  <b-card title="Card Title" tag="article" style="max-width: 20rem;" class="mb-2">
-    <div slot="header">
+  <b-card tag="article">
+    <div slot="header" class="text-left">
       <h1>Log in to our site</h1>
       <p>Enter username or password to log on</p>
     </div>
